@@ -1,0 +1,76 @@
+/* Background color */
+body {
+    background-color: lightblue;
+}
+
+/* Text color */
+body {
+    color: ivory;
+}
+
+/* Google font */
+body {
+    font-family: "Cal Sans", sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+}
+
+/* Spacing */
+body {
+    margin-top: 25px;
+    margin-bottom: 25px;
+    margin-right: 25px;
+    margin-left: 25px;
+}
+
+/* Alignement for text */
+body {
+    text-align: left;
+}
+
+/* Heading fontsize, color, and weight */
+.Heading {
+    font-size: 1.5em;
+    color: lightcoral;
+    font-weight: normal;
+}
+
+/* Name style */
+.Name {
+    text-align: center;
+    font-size: 2em;;
+    font-weight: semibold;;
+}
+
+/* Experience blocks */
+#Experience ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: 10px;
+}
+
+#Experience li {
+    padding: 5px 15px;
+    background-color: lightcoral;
+    border-radius: 10px;
+    box-shadow: 3px 6px gray;
+    font-weight: lighter;
+}
+
+/* Link icons */
+#Connect ul {
+    list-style: none;
+    display: block;
+    padding: 0;
+    gap: 20px;
+}
+
+#Connect li {
+    font-size: 30px;
+    display: inline-flex;
+    padding-right: 10px;
+    margin-right: 10px;
+    text-align: middle;
+}
