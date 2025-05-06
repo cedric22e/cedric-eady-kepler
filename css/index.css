@@ -1,22 +1,22 @@
-/* Background color */
+/* Comment guide: Lessons are designated with the letter "L" and the lesson number (e.g., Lesson 5 = L5) */
+/* L8 Background color */
 body {
-    background-color: lightblue;
+    background-color: blanchedalmond;
 }
 
-/* Text color */
+/* L8 Text color */
 body {
-    color: ivory;
+    color: black;
 }
 
-/* Google font */
+/* L8 Google font */
 body {
-    font-family: "Cal Sans", sans-serif;
-    font-style: normal;
-    font-weight: 300;
-    font-size: 16px;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 500;
+    font-size: medium;
 }
 
-/* Spacing */
+/* L8 Spacing */
 body {
     margin-top: 25px;
     margin-bottom: 25px;
@@ -24,53 +24,100 @@ body {
     margin-left: 25px;
 }
 
-/* Alignement for text */
+/* L8 Alignement for text */
 body {
     text-align: left;
+    flex-wrap: wrap;
 }
 
-/* Heading fontsize, color, and weight */
-.Heading {
+/* L8 Heading fontsize, color, and weight */
+.heading {
     font-size: 1.5em;
-    color: lightcoral;
-    font-weight: normal;
+    color: blue;
+    font-weight: semi-bold;
+    padding: 20px 10px 5px 5px;
 }
 
-/* Name style */
-.Name {
+/* L8 Name style */
+.name {
     text-align: center;
     font-size: 2em;;
-    font-weight: semibold;;
+    font-weight: bolder;
+    color: black;
+    margin-top: 50px;;
 }
 
-/* Experience blocks */
-#Experience ul {
-    list-style: none;
-    padding: 0;
+/* L8 Experience blocks, L9 Updated for changes*/
+.experience-list {
     display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    margin-top: 1rem;
+    flex-wrap: wrap;
+}
+.experience-item {
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 1rem;
+}
+.experience-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+.job-title {
+    flex: 1;
+
+}
+.job-date {
+    flex-shrink: 0;
+    font-size: 0.9rem;
+}
+.job-description {
+    margin-top: 0.5rem;
+    line-height: 1.5;
+}
+  
+/* L8 Link icons */
+#connect {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+#connect .my-icons {
+    display: flex;
+    padding: 10px;
+    gap: 10px; 
+}
+#connect .my-icons a {
+    text-decoration: none; 
+    color: #4f4f4f;
+    font-size: 2em;
+    transition: transform 0.3s ease, color 0.3s ease; 
+}
+#connect .my-icons a:hover {
+    transform: scale(1.2);
+    color: blue
+}
+
+/* L9 Navigation links */
+nav {
+    display: flex;
+    justify-content: center;
     gap: 10px;
+    flex-wrap: wrap;
 }
-
-#Experience li {
+nav a {
     padding: 5px 15px;
-    background-color: lightcoral;
     border-radius: 10px;
-    box-shadow: 3px 6px gray;
-    font-weight: lighter;
+    box-shadow: 3px 6px blue;
+    text-decoration: none;
+    background-color: black;
+    font-size: 12px;
+    color: ivory;
 }
-
-/* Link icons */
-#Connect ul {
-    list-style: none;
-    display: block;
-    padding: 0;
-    gap: 20px;
-}
-
-#Connect li {
-    font-size: 30px;
-    display: inline-flex;
-    padding-right: 10px;
-    margin-right: 10px;
-    text-align: middle;
+nav a:hover {
+    background-color: ivory;
+    color: black;
 }
